@@ -1,0 +1,91 @@
+body {
+  margin: 0% 10%;
+}
+body div:not(.first-h1-div) {
+  margin: 2%;
+  padding: 2%;
+}
+body h1:not(.first2-h1, .float-left) {
+  font-size: 250%;
+  text-align: center;
+  font-weight: 600;
+}
+body a {
+  font-weight: 900;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 20px;
+  background-image: linear-gradient(#ff5959, rgb(196, 196, 22));
+  color: white;
+  font-size: 110%;
+  border-radius: 5px;
+  font-size: 18px;
+}
+body p {
+  font-weight: 300;
+  font-size: 120%;
+  text-align: justify;
+}
+section {
+  display: flex;
+}
+section img {
+  width: 80%;
+}
+.orange-color {
+  color: orange;
+}
+.half-width {
+  width: 50%;
+}
+.one-third-width {
+  width: 33.333%;
+  border-radius: 3%;
+}
+.float-left {
+  font-size: 300%;
+  font-family: "Prata", serif;
+}
+.first-section {
+}
+.first-h1-div {
+  border-left: 5px solid;
+  border-image: linear-gradient(orange, rgb(241, 230, 72));
+  border-image-slice: 1;
+}
+.first2-h1 {
+  font-family: "Prata", serif;
+  font-size: 68px;
+  margin-left: 5%;
+}
+.first-h1-div h1:nth-child(1) {
+  line-height: 70px;
+  margin-bottom: 5%;
+}
+.first-h1-div h1:nth-child(2) {
+  line-height: 60px;
+  margin-bottom: 20%;
+}
+.second-section div img {
+  width: 40%;
+}
+.mission-div {
+  background-color: #edf5f6;
+}
+.vission-div {
+  background-color: #ffeeee;
+}
+.goals-div {
+  background-color: #fff4d6;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 200px;
+}
+footer h1 {
+  padding-top: 50px;
+}
+footer p {
+  text-align: center;
+}
